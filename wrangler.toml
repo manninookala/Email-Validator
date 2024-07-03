@@ -1,0 +1,11 @@
+name = "emailvalidator"
+type = "javascript"
+
+account_id = ""
+workers_dev = true
+compatibility_date = "2024-06-13"
+main = "./src/index.js"  # Ensure the path is relative to the root of the project
+
+[env.production]
+route = ""
+zone_id = ""
